@@ -157,7 +157,7 @@ button{
 .category .list-items{
     width: 90%;
     position: relative;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .category .list-items h3{
@@ -222,3 +222,13 @@ button{
 }
 
 /* 37.48 */
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: #ff511c;
+}
